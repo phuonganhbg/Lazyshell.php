@@ -1,7 +1,7 @@
 <?php
-// Lazyshell-PHP
+// Lazyshell.php
 // Author: Joey Lane
-// Github: https://github.com/joeylane/Lazyshell-PHP
+// Github: https://github.com/joeylane/Lazyshell.php
 // THIS TOOL SHOULD BE USED FOR AUTHORIZED TESTING PURPOSES ONLY!
 
 // Usage: http://HOSTNAME/lazyshell.php?key=YOUR-SUPER-SECRET-KEY
