@@ -1,4 +1,4 @@
-# Lazyshell-PHP
+# Lazyshell.PHP
 A stealthy PHP web shell which supports simple key based authentication.
 
 THIS TOOL SHOULD BE USED FOR AUTHORIZED TESTING PURPOSES ONLY!
