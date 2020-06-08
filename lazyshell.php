@@ -3,7 +3,7 @@
 // Author: Joey Lane
 // Github: https://github.com/joeylane/Lazyshell.php
 
-// THIS TOOL MAY BE USED FOR AUTHORIZED TESTING PURPOSES ONLY!
+// THIS TOOL IS INTENDED TO BE USED FOR LEGAL AND AUTHORIZED TESTING ONLY!
 // Users take full responsibility for any actions performed using this tool.
 // The author accepts no liability for damage caused by this tool.
 // If these terms are not acceptable to you, then do not use this tool.
