@@ -1,4 +1,4 @@
-THIS TOOL MAY BE USED FOR THE PURPOSES OF LEGAL AND AUTHORIZED TESTING ONLY! Users take full responsibility for any actions performed using this tool. The author accepts no liability for damage caused by this tool. If these terms are not acceptable to you, then do not use this tool.
+THIS TOOL IS INTENDED TO BE USED FOR LEGAL AND AUTHORIZED TESTING ONLY! Users take full responsibility for any actions performed using this tool. The author accepts no liability for damage caused by this tool. If these terms are not acceptable to you, then do not use this tool.
 
 # Lazyshell.php
 A stealthy PHP web shell which supports simple key based authentication.
