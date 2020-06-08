@@ -1,10 +1,7 @@
 # Lazyshell.php
 A stealthy PHP web shell which supports simple key based authentication.
 
-THIS TOOL MAY BE USED FOR AUTHORIZED TESTING PURPOSES ONLY!
-Users take full responsibility for any actions performed using this tool.
-The author accepts no liability for damage caused by this tool.
-If these terms are not acceptable to you, then do not use this tool.
+THIS TOOL MAY BE USED FOR AUTHORIZED TESTING PURPOSES ONLY! Users take full responsibility for any actions performed using this tool. The author accepts no liability for damage caused by this tool. If these terms are not acceptable to you, then do not use this tool.
 
 * Easily configure the secret key using the $secretkey variable.
 * Customizable error page to disguise the web shell when the secret key is not provided.
